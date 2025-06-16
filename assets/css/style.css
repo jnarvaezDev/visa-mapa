@@ -1,0 +1,212 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+p{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.bg-blue-header{
+    background:#021E4C;
+}
+
+.card-active{
+    background:#1434CB !important;
+}
+
+.card{
+    color:#fff;
+    background: #021E4C;
+    border-radius: 0px;
+}
+.card .card-body{
+    /*max-height: 208px;
+    overflow-y: auto;*/
+}
+
+.card-title{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 0px;
+    font-size: 14px;
+    /*letter-spacing: 0.05rem;*/
+}
+
+.content-card{
+    border-bottom: 1px solid #f4f4f4;
+    padding: 0px 15px 15px 0px;
+}
+
+.sub-drecription{
+    border-bottom: 1px solid #f4f4f4;
+    padding: 10px 10px 10px 0px;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.row-address {
+    border-bottom: 1px solid #f4f4f4;
+    padding: 10px 10px 10px 0px;
+}
+
+.row-address  .col-6:first-child{
+    border-right: 1px solid #f4f4f4;
+    padding-right: 5px;
+}
+
+.row-address .col-6{
+    display: flex;
+    align-items: center;
+}
+
+.row-address  .col-6:nth-child(2n){
+    padding-left: 5px;
+}
+
+.row-footer .col-3:first-child a{
+    margin-left: 15px;
+}
+
+.b-none{
+    border:none !important;
+}
+
+.img-title{
+    margin-right: 3px;
+}
+
+.border-right {
+    border-right: 1px solid #f4f4f4;
+}
+
+.border-rifgth-blue{
+    border-right: 1px solid #021e4c;
+}
+
+.border-left {
+    border-left: 1px solid #f4f4f4;
+}
+
+.col-card-left {
+    float: left;
+}
+
+.col-card-right, .col-card-left{
+    width: 50%;
+}
+
+table.table-card{
+    color: #fff;
+}
+
+table.table-card p.left {
+    border-right: 1px solid #f4f4f4;
+    padding-right: 5px;
+}
+
+table.table-card td{
+    padding: 10px;
+}
+
+.description{
+    font-size: 14px;
+    text-align: center;
+}
+
+.row {
+    --bs-gutter-x: none;
+}
+
+.modal-marker img {
+    width: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.contents-cards-left .card, .contents-cards-right .card{
+    border: 1px solid #fff;
+}
+
+.banner-bottom{
+    margin-top: -9px;
+    margin-bottom: -10px;
+}
+
+.banner-top, .banner-bottom{
+    width:100%
+}
+
+.logo-right{
+    float: right;
+}
+
+.row-footer .col-3, .row-footer .col-6{
+    display: flex;
+    align-items: center;
+}
+
+.border-rifgth-blue {
+    width: 100%;
+    text-align: right;
+}
+
+
+.promotion-marker{
+    padding-top: 10px;
+}
+
+.card-active .card-title{
+    letter-spacing: 0.05rem;
+}
+
+.text-lg-start{
+    background: #f9f9fb;
+}
+
+#map {
+    height: 400px;
+}
+
+.gm-style-iw-d{
+    padding-right: 10px;
+    padding-bottom:10px;
+}
+
+.content-uber{
+    background: black;
+    padding: 19px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.content-uber div{
+    margin: 0 auto;
+}
+
+.col-left-uber{
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.col-right-uber{
+    padding-left: 10px;
+}
+
+.border-rifgth-blue img{
+    margin-right: 11px;
+}
+
+@media only screen and (min-width: 576px) {
+    .main{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .banner-bottom {
+        margin-top: -20px;
+        margin-bottom: -14px;
+    }
+    
+}
