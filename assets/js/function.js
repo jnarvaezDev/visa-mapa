@@ -2,7 +2,7 @@ $(function(){
     getCards();
 });
 
-const url = 'https://visamapa.asylummarketing.com/';
+const url = 'https://visa-mapa-7beqf.kinsta.page/';
 
 const locations = [
     ['American Trade','Avenida Central, San Felipe, Panama', 8.95231177514636, -79.53666515459591, 'Hotel<br />Abierto siempre', '15% de descuento en hospedaje','american.png'],
